@@ -3,7 +3,7 @@ This is for install ELK5 on single server running Centos7.
 Note: clone elk5 repo from git@github.com:zzinfotech2012/elk5.git
 
 1. create your own key pair for Vagrant with ssh-keygen. For example:
-   ssh-keygen -t rsa -b 2048 -f ~/.ssh/prod.myanovsky.20161206
+   ssh-keygen -t rsa -b 2048 -f ~/.ssh/my-vagrant-key
 
 2. Edit Vagrant file to update key localtion
    node.ssh.private_key_path = "C:/peterdoc/keys/github-zzinfotech2012"
