@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
        node.vm.box = "centos/7"
        node.vm.network "private_network", ip: "10.10.0.10#{i}"
        node.vm.provider "virtualbox" do |v|
-         v.memory = 4096
+         v.memory = 6144
        end
        node.ssh.private_key_path = "/home/vmuser/.ssh/github-zzinfotech2012"
     end
